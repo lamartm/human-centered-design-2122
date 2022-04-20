@@ -1,0 +1,13 @@
+.dates {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 15em;
+    height: 5em;
+    background-color: aliceblue;
+    margin-bottom: 1em;
+}
+
+.date:checked + .dates {
+    background-color: rgb(84, 223, 200);
+}
