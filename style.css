@@ -1,3 +1,67 @@
+body {
+  background-color: rgb(46, 46, 46);
+  height: 100vh;
+  font-family: "Rubik", sans-serif;
+  color: white;
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-weight: 900;
+}
+
+select, #time, #submit{
+    font-size: 1em;
+    height: 3em;
+    width: 14em;
+    text-align: center;
+}
+
+button {
+  background-color: rgb(243, 192, 24);
+  width: 20em;
+  height: 7em;
+  border-radius: 2px;
+  border: none;
+  color: white;
+  font-weight: 900;
+  font-family: "Rubik", sans-serif;
+  cursor: pointer;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.links {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#selectTrip {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#selectDate {
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+label ,#submit {
+    cursor: pointer;
+}
+
+.date {
+    opacity: 0;
+}
+
 .dates {
     display: inline-flex;
     align-items: center;
@@ -8,6 +72,10 @@
     margin-bottom: 1em;
 }
 
+input[type=radio]:focus + .dates {
+    border: 2px rgb(255, 255, 255) solid;
+}
+
 .date:checked + .dates {
-    background-color: rgb(84, 223, 200);
+    background-color: rgb(243, 192, 24);
 }

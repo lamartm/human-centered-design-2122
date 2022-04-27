@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>HCD</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="description" content="HCD" />
+  </head>
+  <body>
+    <h1>Selecteer een datum</h1>
+    <form id="selectTrip" name="selectTrip">
+      <label for="Van">Van:</label>
+      <select id="Van" name="Van" required>
+        <option>Eindhoven Centraal</option>
+      </select>
+      <label for="Naar">Naar:</label>
+      <select id="Naar" name="Naar" required>
+        <option>Amsterdam Centraal</option>
+      </select>
+      <label for="Tijd">Tijd:</label>
+      <input type="time" id="time" name="time" required />
+
+      <div id="selectDate">
+        <input type="radio" name="date" id="dateOne" class="date" required />
+        <label for="dateOne" class="dates"></label>
+
+        <input type="radio" name="date" id="dateTwo" class="date" required />
+        <label for="dateTwo" class="dates"></label>
+
+        <input type="radio" name="date" id="dateThree" class="date" required />
+        <label for="dateThree" class="dates"></label>
+
+        <input type="radio" name="date" id="dateFour" class="date" required />
+        <label for="dateFour" class="dates"></label>
+
+        <input type="radio" name="date" id="dateFive" class="date" required />
+        <label for="dateFive" class="dates"></label>
+
+        <input type="radio" name="date" id="dateSix" class="date" required />
+        <label for="dateSix" class="dates"></label>
+
+        <input type="radio" name="date" id="dateSeven" class="date" required />
+        <label for="dateSeven" class="dates"></label>
+      </div>
+      <input id="submit" type="submit" />
+    </form>
+  </body>
+  <script src="./other.js"></script>
+</html>

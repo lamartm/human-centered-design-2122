@@ -1,38 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <title>HCD</title>
     <link rel="stylesheet" href="style.css" />
     <meta name="description" content="HCD" />
   </head>
   <body>
-    <form>
-      <fieldset>
-        <label>Input type datetime</label>
-        <br />
-        <input type="datetime-local" />
-      </fieldset>
-      <fieldset>
-        <label>Input type text</label>
-        <br />
-        <input type="text" placeholder="dd-mm-jjjj" />
-      </fieldset>
-      <fieldset>
-        <div>
-          <input type="radio" name="date" id="dateOne" class="date" />
-          <label for="dateOne" class="dates">Maandag 20 mei 2022</label>
-        </div>
-
-        <div>
-          <input type="radio" name="date" id="dateTwo" class="date" />
-          <label for="dateTwo" class="dates">Dinsdag 21 mei 2022</label>
-        </div>
-
-        <div>
-          <input type="radio" name="date" id="dateThree" class="date" />
-          <label for="dateThree" class="dates">Woensdag 22 mei 2022</label>
-        </div>
-      </fieldset>
-    </form>
+    <h1>Reisplanner</h1>
+    <div class="links">
+      <a href="" id="naarWerk"><button>Over 1 uur naar werk</button></a>
+      <a href="" id="naarHuis"><button>Over 1 uur naar huis</button></a>
+      <a href="" id="naarWerkMorgen"><button>Morgen 9 uur naar werk</button></a>
+      <a href="date.html" id="anders"><button>Anders</button></a>
+    </div>
   </body>
+  <script src="./script.js"></script>
 </html>
