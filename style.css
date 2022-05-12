@@ -15,8 +15,8 @@ select,
 #time,
 #submit {
   font-size: 1em;
-  height: 3em;
-  width: 14em;
+  height: 2em;
+  width: 12em;
   text-align: center;
 }
 
@@ -56,6 +56,10 @@ a {
 }
 
 .datePicker {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
   background-image: linear-gradient(#f9cb8c, #cbb8a4),
   url(wall.jpg);
   background-size: cover;
@@ -163,8 +167,8 @@ label,
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 15em;
-  height: 5em;
+  width: 12em;
+  height: 2em;
   background-color: rgb(250, 247, 217);
   margin-bottom: 1em;
   color: black;
@@ -173,8 +177,8 @@ label,
 
 .hours,
 .minutes {
-  width: 4em;
-  height: 3em;
+  width: 3em;
+  height: 2em;
 }
 
 input[type="radio"]:focus + .dates,
