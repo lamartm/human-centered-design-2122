@@ -4,7 +4,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Acme&display=swap"
       rel="stylesheet"
     />
     <title>HCD</title>
@@ -12,43 +12,147 @@
     <meta name="description" content="HCD" />
   </head>
   <body>
-    <h1>Selecteer een datum</h1>
-    <form id="selectTrip" name="selectTrip">
-      <label for="Van">Van:</label>
-      <select id="Van" name="Van" required>
-        <option>Eindhoven Centraal</option>
-      </select>
-      <label for="Naar">Naar:</label>
-      <select id="Naar" name="Naar" required>
-        <option>Amsterdam Centraal</option>
-      </select>
-      <label for="Tijd">Tijd:</label>
-      <input type="time" id="time" name="time" required />
+    <section class="datePicker">
+      <h1>Selecteer een datum</h1>
+      <form id="selectTrip" name="selectTrip">
+        <div>
+          <label for="Van" class="locationLabel">Van:</label>
+          <select id="Van" name="Van" required>
+            <option>Eindhoven Centraal</option>
+            <option>Amsterdam Centraal</option>
+            <option>Utrecht Centraal</option>
+            <option>Rotterdam Centraal</option>
+            <option>Den Haag Centraal</option>
+            <option>Schiphol Airport</option>
+            <option>Leiden Centraal</option>
+            <option>Arnhem Centraal</option>
+            <option>Amersfoort Centraal</option>
+          </select>
+          <button id="switch" class="switchButton"><span>&#8646;</span></button>
+          <label for="Naar" class="locationLabel">Naar:</label>
+          <select id="Naar" name="Naar" required>
+            <option>Amsterdam Centraal</option>
+            <option>Eindhoven Centraal</option>
+            <option>Utrecht Centraal</option>
+            <option>Rotterdam Centraal</option>
+            <option>Den Haag Centraal</option>
+            <option>Schiphol Airport</option>
+            <option>Leiden Centraal</option>
+            <option>Arnhem Centraal</option>
+            <option>Amersfoort Centraal</option>
+          </select>
+        </div>
 
-      <div id="selectDate">
-        <input type="radio" name="date" id="dateOne" class="date" required />
-        <label for="dateOne" class="dates"></label>
+        <span class="selectTime">Uur:</span>
+        <div id="selectHour"></div>
 
-        <input type="radio" name="date" id="dateTwo" class="date" required />
-        <label for="dateTwo" class="dates"></label>
+        <span class="selectTime">Minuut:</span>
+        <div id="selectMinutes"></div>
 
-        <input type="radio" name="date" id="dateThree" class="date" required />
-        <label for="dateThree" class="dates"></label>
+        <span class="selectTime">Dag:</span>
+        <div id="selectDate">
+          <div>
+            <input
+              type="radio"
+              name="date"
+              id="dateOne"
+              class="date"
+              required
+            />
+            <label for="dateOne" class="dates"></label>
+          </div>
 
-        <input type="radio" name="date" id="dateFour" class="date" required />
-        <label for="dateFour" class="dates"></label>
+          <div>
+            <input
+              type="radio"
+              name="date"
+              id="dateTwo"
+              class="date"
+              required
+            />
+            <label for="dateTwo" class="dates"></label>
+          </div>
 
-        <input type="radio" name="date" id="dateFive" class="date" required />
-        <label for="dateFive" class="dates"></label>
+          <div>
+            <input
+              type="radio"
+              name="date"
+              id="dateThree"
+              class="date"
+              required
+            />
+            <label for="dateThree" class="dates"></label>
+          </div>
 
-        <input type="radio" name="date" id="dateSix" class="date" required />
-        <label for="dateSix" class="dates"></label>
+          <div>
+            <input
+              type="radio"
+              name="date"
+              id="dateFour"
+              class="date"
+              required
+            />
+            <label for="dateFour" class="dates"></label>
+          </div>
 
-        <input type="radio" name="date" id="dateSeven" class="date" required />
-        <label for="dateSeven" class="dates"></label>
-      </div>
-      <input id="submit" type="submit" />
-    </form>
+          <div>
+            <input
+              type="radio"
+              name="date"
+              id="dateFive"
+              class="date"
+              required
+            />
+            <label for="dateFive" class="dates"></label>
+          </div>
+
+          <div>
+            <input
+              type="radio"
+              name="date"
+              id="dateSix"
+              class="date"
+              required
+            />
+            <label for="dateSix" class="dates"></label>
+          </div>
+
+          <div>
+            <input
+              type="radio"
+              name="date"
+              id="dateSeven"
+              class="date"
+              required
+            />
+            <label for="dateSeven" class="dates"></label>
+          </div>
+
+          <div>
+            <input
+              type="radio"
+              name="date"
+              id="dateEight"
+              class="date"
+              required
+            />
+            <label for="dateEight" class="dates"></label>
+          </div>
+
+          <div>
+            <input
+              type="radio"
+              name="date"
+              id="dateNine"
+              class="date"
+              required
+            />
+            <label for="dateNine" class="dates"></label>
+          </div>
+        </div>
+        <input id="submit" type="submit" />
+      </form>
+    </section>
   </body>
   <script src="./other.js"></script>
 </html>

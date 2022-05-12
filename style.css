@@ -1,8 +1,9 @@
 body {
   background-color: rgb(46, 46, 46);
   height: 100vh;
-  font-family: "Rubik", sans-serif;
+  font-family: "Acme", cursive;
   color: white;
+  margin: 0;
 }
 h1 {
   text-align: center;
@@ -10,23 +11,17 @@ h1 {
   font-weight: 900;
 }
 
-select, #time, #submit{
-    font-size: 1em;
-    height: 3em;
-    width: 14em;
-    text-align: center;
+select,
+#time,
+#submit {
+  font-size: 1em;
+  height: 3em;
+  width: 14em;
+  text-align: center;
 }
 
-button {
-  background-color: rgb(243, 192, 24);
-  width: 20em;
-  height: 7em;
-  border-radius: 2px;
-  border: none;
-  color: white;
-  font-weight: 900;
-  font-family: "Rubik", sans-serif;
-  cursor: pointer;
+#submit {
+  border-radius: 7px;
 }
 
 a {
@@ -34,48 +29,162 @@ a {
   text-decoration: none;
 }
 
-.links {
+.switchButton {
+  background-color: rgb(243, 192, 24);
+  width: 3em;
+  height: 2em;
+  margin: 0 1em;
+  cursor: pointer;
+  border-radius: 2px;
+  border: none;
+  font-size: 1em;
+}
+
+.selectOption {
   display: flex;
   height: 100%;
+  flex-direction: column;
+  background-image: linear-gradient(#f9cb8c, #cbb8a4),
+  url(wall.jpg);
+  background-size: cover;
+  background-blend-mode: saturation;
+  justify-content: center;
+}
+
+.selectOption h1 {
+  color: black;
+}
+
+.datePicker {
+  height: 100%;
+  background-image: linear-gradient(#f9cb8c, #cbb8a4),
+  url(wall.jpg);
+  background-size: cover;
+  background-blend-mode: saturation;
+}
+
+.datePicker h1 {
+  margin: 0;
+  padding: 1em 0;
+}
+
+.bg {
+  background-image: url(scroll.png);
+  background-size: contain;
+  padding: 3em 0;
+  background-position-x: center;
+  background-repeat: no-repeat;
+}
+
+.quickLink {
+  background-color: rgb(243, 192, 24);
+  width: 12em;
+  height: 3em;
+  border-radius: 2px;
+  border: none;
+  color: black;
+  font-weight: 900;
+  font-size: 1.4rem;
+  font-family: "Acme", sans-serif;
+  cursor: pointer;
+}
+
+.links {
+  display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
 
+.workLink {
+  margin-bottom: 2em;
+}
+
+.selectTime {
+  margin: 1em 0;
+}
+
+.locationLabel {
+  margin-right: 0.5em;
+}
+
+.selectDay {
+  margin-top: 1em;
+}
+
 #selectTrip {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #selectDate {
-    display: flex;
-    flex-direction: column;
-    color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 1em;
+  color: black;
+  padding: 1em 1em 0 0;
+  border: 2px transparent solid;
 }
 
-label ,#submit {
-    cursor: pointer;
+#selectHour {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 1em 1em 0 0;
 }
 
-.date {
-    opacity: 0;
+#selectMinutes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 1em 1em 0 0;
 }
 
-.dates {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 15em;
-    height: 5em;
-    background-color: aliceblue;
-    margin-bottom: 1em;
+#selectDate:focus-within,
+#selectHour:focus-within,
+#selectMinutes:focus-within {
+  border: 2px rgba(255, 255, 255, 0.322) solid;
+  border-radius: 2px;
 }
 
-input[type=radio]:focus + .dates {
-    border: 2px rgb(255, 255, 255) solid;
+label,
+#submit {
+  cursor: pointer;
 }
 
-.date:checked + .dates {
-    background-color: rgb(243, 192, 24);
+.date,
+.hour,
+.minute {
+  opacity: 0;
+}
+
+.dates,
+.hours,
+.minutes {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 15em;
+  height: 5em;
+  background-color: rgb(250, 247, 217);
+  margin-bottom: 1em;
+  color: black;
+  border-radius: 7px;
+}
+
+.hours,
+.minutes {
+  width: 4em;
+  height: 3em;
+}
+
+input[type="radio"]:focus + .dates,
+input[type="radio"]:focus + .hours,
+input[type="radio"]:focus + .minutes {
+  border: 2px rgb(255, 255, 255) solid;
+}
+
+.date:checked + .dates,
+.hour:checked + .hours,
+.minute:checked + .minutes {
+  background-color: rgb(243, 192, 24);
 }
