@@ -56,7 +56,6 @@ a {
 }
 
 .datePicker {
-  height: 100%;
   background-image: linear-gradient(#f9cb8c, #cbb8a4),
   url(wall.jpg);
   background-size: cover;
