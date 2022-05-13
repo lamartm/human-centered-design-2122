@@ -1,5 +1,4 @@
 # HCD 2122
-Ik ging voor Marijn een applicatie maken. Marijn heeft fijne motorieke problemen en heeft moeite met het plannen van een trip via de NS. Ik zal voor hem iets bedenken die de problemen die hij nu heeft op te lossen.
 
 ## User Needs
 ### Who?
