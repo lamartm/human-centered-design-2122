@@ -1,6 +1,6 @@
 # HCD 2122
 
-## User Needs
+## User Needs 🧑
 ### Who?
 In dit vak ging ik een applicatie maken voor een specifieke user met een beperking. Deze user is Marijn. Marijn heeft motorieke problemen waardoor hij soms moeite heeft door de web te navigeren. Het was aan mij de taak om iets specifiek voor Marijn te maken die overeenkomen met zijn wensen en gemaakt is zodat het zo makkelijk mogelijk wordt voor Marijn.
 
@@ -13,14 +13,14 @@ Het probleem is dat het navigeren op de NS site soms stroef gaat voor Marijn. Di
 ### How?
 Ik zal iteratief gaan werken en elke keer mijn prototype testen met Marijn. Hierdoor weet ik waar ik op moet letten en krijg ik een beter idee van wat Marijn precies wilt.
 
-## Het probleem en mijn oplossing
+## Het probleem en mijn oplossing 🚩
 Het probleem nu is dat de NS site die Marijn gebruikt om een trip te plannen, niet Marijn in gedachte had in hun design. De naam van een locatie in typen of een kleine dropdown veld zijn net de dingen waar Marijn wat moeite heeft.
 
 Mijn oplossing hiervoor is om alles zo makkelijk mogelijk voor Marijn te maken. Uit de eerste test sessie werd het mij duidelijk dat Marijn dagelijks een trip planned van zijn huis naar werk. Hierin zag ik de mogelijkheid om gewoon buttons te hebben die Marijn gelijk linken naar de NS site voor die specifieke trip, over een uur. Hij gaat ook vaak in de ochtend naar werk, dus hiervoor had ik ook een button toegevoegd.
 
 Verder als Marijn een andere trip wilt plannen probeerde ik alle filter opties zo makkelijk mogelijk te maken. Het gaat hier dan vooral om dat er zoveel mogelijk grote buttons zijn. Dit maakt het makkelijker voor Marijn om te selecteren. Ook wilt hij niet altijd alles invullen, en liever dat er alvast iets voor hem is ingevuld. Hierdoor had ik altijd wanneer Marijn een andere trip wilt plannen, de dag van vandaag en een uur later dan de tijd op het moment geselecteerd. Nu hoeft hij alleen de locatie te veranderen en kan hij gelijk een trip plannen.
 
-## Design Principles
+## Design Principles 🎨
 ### Study Situation
 Hier wordt er bedoeld dat je moet gaan kijken wat de situatie is van een persoon met een beperking of jour individuele gebruiker. Je moet begrijpen wat de problemen zijn die zij ervaren en hoe je dit kan oplossen. Hierdoor maak je iets dat specifiek voor hun werkt.
 
@@ -56,7 +56,7 @@ Marijn houdt van bier en boeken. Ik kwam toen met de gedachte om een soort taver
 ![hcd v3 1](https://user-images.githubusercontent.com/55801193/168205950-8faa80f2-8dae-499d-a1da-60b2f6c5c35c.png)
 
 
-## Testen
+## Testen 🧪
 ### Test sessie 1
 Voor de eerste testen wou ik vooral een nul meting doen. Ik ging verschillende input manieren laten zien aan Marijn om te kijken waar hij moeite mee heeft. Hiervoor had ik Marijn nooit eerder gezien, dus was ik vooral geinteresseerd om hem beter te leren kennen. Ook wou ik kijken waar Marijn momenteel moeite heeft tijdens het plannen van een trip.
 
@@ -120,7 +120,7 @@ Verder probeerde hij tijden het selecteren van een uur en minuut de pijltjes toe
 
 Verder had hij eigenlijk niet meer feedback en was hij wel blij met wat het nu is geworden.
 
-## Testresultaten
+## Testresultaten 💡
 Je kan zien dat ik in elke test sessie er erin ging met een duidelijke doel om te kijken wat voor dingen die ik vooraf in hoofd had, Marijn zou beleven. Elke keer probeerde ik anders te gaan testen. Zo ging ik in de tweede test sessie meer passief kijken hoe Marijn mijn app navigeert, sinds ik op dat moment daar het meeste aan had. In de derde test sessie nam ik een meer actieve rol en ging ik Marijn vragen wat hij conceptueel denkt van de oplossingen die ik had bedacht van de problemen die naar voren kwamen in de tweede test sessie. 
 
 De eerste test sessie was er om zoveel mogelijk informatie over Marijn te krijgen zodat ik een beter idee krijg van hoe ik mijn app moet designen en waar ik rekening aan moet houden.
