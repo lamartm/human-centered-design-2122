@@ -67,4 +67,30 @@ Hij wilt verder nog ook een button of optie hebben waardoor hij de locaties kan 
 Ik zal voor de volgende keer proberen de layout veel meer compacter te maken. Dit was voor Marijn de grootste probleem van mijn design nu. Verder zal ik een manier bedenken om tijd selecteren makkelijker te maken voor Marijn, en een knop toevoegen die de locaties van de trein stations switcht. Naast dit zal ik  standaard voorgeselecteerde opties toevoegen en de styling verbeteren.
 
 ### Test sessie 3
+Het bleek dat ik nu een prototype heb die veel beter bij de wensen van Marijn overeenkomen. Er waren wat dingen die beter kunnen, maar overal vond hij het goed en had hij niet veel meer feedback te geven. Ik was blij om te zien dat hij mijn oplossingen (andere manier van tijd tonen) goed vond. Dit keer probeerde ik wel wat meer vragen te stellen, vooral conceptuel. Dingen zoals of hij mijn manier van tijd tonen goed vond, of sommige dingen beter geplaatst kunnen worden etc.. Het gaf mijn een beter idee van wat Marijn echt denkt over mijn prototype, wat ik in dit fase graag wou weten aangezien dit mijn laatste test sessie was.
 
+![hcd v3 1](https://user-images.githubusercontent.com/55801193/168200720-3cf7a824-af6d-4c05-a975-41b43bf561d3.png)
+![hcd v3 2](https://user-images.githubusercontent.com/55801193/168200724-77f02cc6-0c2c-4d22-81ee-699e9b213186.png)
+
+#### Verwachtingen
+Mijn verwachtingen hiervoor waren eerlijk gezegd hoog. Ik probeerde elke feedback punt die ik vorige keer van Marijn had gekregen toe te passen, en verder echt meer styling toe te voegen zodat de site meer persoonlijkheid heeft. Waar ik wel aan ging twijfelen is of hij scrollen erg vindt. Dit vooral omdat de buttons in mijn site vrij groot zijn, en in andere schermformaten ervoor zorgen dat je wel wat moet scrollen om dingen te bereiken.
+
+#### Bevindingen
+Marijn had conceptueel geen problemen met mijn site. Ik vroeg hem wat hij vond van mijn manier van tijd tonen (door de uren en minuten apart te houden), en hij vond het wel goed. Ik zag ook dat hij niet veel moeite had om de tijd aan te passen. 
+
+Dit keer ging Marijn meer kijken of hij mijn prototype kon slopen. Zoals verwacht vond hij al snel wat bugs. Zo is het nu dat als je dezelfde locatie invult bij het maken van een trip, je een error page krijgt wanneer je gelinked wordt naar de NS. Ik dacht hier eerlijk gezegd niet aan, maar Marijn vond het al snel.
+
+Verder probeerde hij tijden het selecteren van een uur en minuut de pijltjes toetsen te gebruiken. Hij vond namelijk dat je niet naar boven en beneden kan gaan tijdens het selecteren hiervan. Ik had eerlijk gezegd niet mijn prototype gemaakt met het gedachte dat hij een toetsenbord zou gebruiken, aangezien hij liever een trackpad gebruikt, maar dit kon ik wel snel nog testen.
+
+Verder had hij eigenlijk niet meer feedback en was hij wel blij met wat het nu is geworden.
+
+## Testresultaten
+Je kan zien dat ik in elke test sessie er erin ging met een duidelijke doel om te kijken wat voor dingen die ik vooraf in hoofd had, Marijn zou beleven. Elke keer probeerde ik anders te gaan testen. Zo ging ik in de tweede test sessie meer passief kijken hoe Marijn mijn app navigeert, sinds ik op dat moment daar het meeste aan had. In de derde test sessie nam ik een meer actieve rol en ging ik Marijn vragen wat hij conceptueel denkt van de oplossingen die ik had bedacht van de problemen die naar voren kwamen in de tweede test sessie. 
+
+De eerste test sessie was er om zoveel mogelijk informatie over Marijn te krijgen zodat ik een beter idee krijg van hoe ik mijn app moet designen en waar ik rekening aan moet houden.
+
+Zo had in de tweede test sessie geen idee dat de tijd input zo'n irritante manier van functioneren had. Je denkt hier niet aan totdat je iemand ziet die er wel moeite mee heeft. Dit bracht mij tot het idee om het nog makkelijker te maken voor Marijn, en dit ging ik ook testen in de derde test sessie.
+
+Wat ik wel volgende keer beter kan doen is dat wanneer ik passief of actief wil gaan testen, dit ook echt volop moet doen. Ik was soms actief vragen aan het stellen aan Marijn om te kijken of hij sommige dingen snapt, maar achteraf was het beter dat ik meer passief was. Dit omdat ik Marijn zijn acties zo min mogelijk beinvloed en ik een beter beeld krijg van waar hij normaal gesproken moeite mee zou hebben.
+
+Al met al vond ik dit eigenlijk een vrij leerzaam vak. Je test eigenlijk nooit tijdens het developen van een app met een specifiek persoon. Ik zie dat dit veel meer inzichten geeft, vooral wanneer je iets maakt die ook voor mensen met een beperking moet werken.
