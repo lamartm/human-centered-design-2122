@@ -57,7 +57,7 @@ a {
 }
 
 .datePicker {
-  height: initial;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -65,6 +65,7 @@ a {
   url(wall.jpg);
   background-size: cover;
   background-blend-mode: saturation;
+  align-items: center;
 }
 
 .datePicker h1 {
