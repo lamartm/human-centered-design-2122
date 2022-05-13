@@ -1,4 +1,5 @@
 # HCD 2122
+Ik ging voor Marijn een applicatie maken. Marijn heeft fijne motorieke problemen en heeft moeite met het plannen van een trip via de NS. Ik zal voor hem iets bedenken die de problemen die hij nu heeft op te lossen.
 
 ## User Needs
 ### Who?
@@ -19,6 +20,42 @@ Het probleem nu is dat de NS site die Marijn gebruikt om een trip te plannen, ni
 Mijn oplossing hiervoor is om alles zo makkelijk mogelijk voor Marijn te maken. Uit de eerste test sessie werd het mij duidelijk dat Marijn dagelijks een trip planned van zijn huis naar werk. Hierin zag ik de mogelijkheid om gewoon buttons te hebben die Marijn gelijk linken naar de NS site voor die specifieke trip, over een uur. Hij gaat ook vaak in de ochtend naar werk, dus hiervoor had ik ook een button toegevoegd.
 
 Verder als Marijn een andere trip wilt plannen probeerde ik alle filter opties zo makkelijk mogelijk te maken. Het gaat hier dan vooral om dat er zoveel mogelijk grote buttons zijn. Dit maakt het makkelijker voor Marijn om te selecteren. Ook wilt hij niet altijd alles invullen, en liever dat er alvast iets voor hem is ingevuld. Hierdoor had ik altijd wanneer Marijn een andere trip wilt plannen, de dag van vandaag en een uur later dan de tijd op het moment geselecteerd. Nu hoeft hij alleen de locatie te veranderen en kan hij gelijk een trip plannen.
+
+## Design Principles
+### Study Situation
+Hier wordt er bedoeld dat je moet gaan kijken wat de situatie is van een persoon met een beperking of jour individuele gebruiker. Je moet begrijpen wat de problemen zijn die zij ervaren en hoe je dit kan oplossen. Hierdoor maak je iets dat specifiek voor hun werkt.
+
+Met Marijn is het de geval dat hij motorieke problemen heeft. Hij kan niet helemaal optimaal een pagina navigeren. Vooral kleine buttons en dingen die meerdere inputs nodig hebben wilt hij liever niet.
+
+Als oplossing hiervoor maakte ik alle buttons in mijn site groot. Behalve dat probeer ik bij elke pagina de opties voor hem vooraf te bepalen. Hierdoor hoeft hij minder te klikken en kan hij gelijk de dingen zoeken die hij wilt.
+
+![hcd v3 3](https://user-images.githubusercontent.com/55801193/168204272-2254f195-e76f-433e-95d4-dd5587392627.png)
+
+### Prioritise Identity
+Behalve alleen te observeren hoe de persoon waarvoor je een product designed, zij het ervaren, is het ook handig om ze ook mee te laten denken in het design proces. Dingen zoals vragen stellen over specifieke keuzes, suggesties vragen en kijken wat ze er allemaal van denken. Je maakt het namelijk specifiek voor deze persoon, hun meebrengen in het design proces helpt alleen.
+
+Marijn heeft vorig jaar alleen projecten gekregen met een heavy metal thema. In eerste instantie wou ik dit ook gaan doen, maar Marijn zei dat hij dit keer wat anders wil. Daarom gingen we verder vragen van wat hij nog meer leuk vindt, en blijkbaar is hij dol op bier en boeken lezen.
+
+Dit nam ik dan mee voor de thema van mijn site. In plaats van ervan uitgaan dat hij vast een heavy metal thema leuk zou vinden, was het goed dat we echt gingen vragen wat hij wilt.
+
+### Ignore convention
+Conventions zijn er omdat ze handig zijn en een houvast geven die in veel contexten werken. 
+
+Maar dit is niet altijd het geval. Voor sommige gebruikers zijn deze conventions juist niet goed. 
+
+Ik probeerde echt te begrijpen waarom hij sommige dingen in mijn design niet optimaal vond, zodat ik dit kon verbeteren. Zo vond hij de tijd veranderen irritant omdat je zo'n klein icoon moet selecteren. Nu is dit een convention dat je hebt met een standaard input field die type time is. Dit werkt goed voor meeste gebruikers, maar uiteindelijk niet voor Marijn.
+
+Dit heb ik dan opgelost door de tijd op te splitsen in uren en minuten met grote buttons die hij kan selecteren
+
+![hour hcd](https://user-images.githubusercontent.com/55801193/168205585-7496e34e-0797-40a3-ae56-d8139ad86f4e.png)
+
+### Add Nonsense
+Hier moet je afvragen of je dingen kan toevoegen die voor de gebruiker waarvoor je iets maakt leuk is. Het hoeft niet praktisch te zijn, maar een leuke toevoeging die specifiek is gemaakt voor jou gebruiker.
+
+Marijn houdt van bier en boeken. Ik kwam toen met de gedachte om een soort tavern vibe te hebben voor mijn site die hieraan aansluit. Bij de homepage heb ik het nu zo dat het lijkt of de opties die je kan selecteren op een middeleeuwse kroeg poster:
+
+![hcd v3 1](https://user-images.githubusercontent.com/55801193/168205950-8faa80f2-8dae-499d-a1da-60b2f6c5c35c.png)
+
 
 ## Testen
 ### Test sessie 1
